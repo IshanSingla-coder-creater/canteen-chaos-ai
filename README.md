@@ -8,8 +8,6 @@ along.
 It works — mostly. Some things in it are broken, and your job is to
 find and fix the ones you are given.
 
-
-
 ## Running it
 
 ```bash
@@ -36,8 +34,6 @@ Other settings, all optional:
 | `LATENCY_MS` | 250 | Delay added to every API call. Set `0` for instant responses. |
 | `AUTO_COOK` | true | Orders move along by themselves. |
 | `ORDER_RATE_MAX` | 40 | Orders per minute before you get rate limited. |
-
-
 
 ## What is in the repo
 
@@ -69,8 +65,6 @@ Reset the data if a test run leaves it in a strange state:
 git checkout -- backend/data/
 ```
 
-
-
 ## Your task
 
 You will be given a **bug log** — a list of specific problems reported
@@ -93,8 +87,6 @@ For every bug you are assigned:
 The log matters as much as the fix. A correct patch you cannot explain
 counts for nothing.
 
-
-
 ## Brownie points
 
 Not required, and not needed to clear the task — but they count.
@@ -111,12 +103,8 @@ Not required, and not needed to clear the task — but they count.
 One rule: a brownie-point fix must not break anything else. If it does,
 it costs you rather than earns you.
 
-
-
 ## Rules
 
-- **No AI tools.** No ChatGPT, Claude, Copilot, Cursor or anything
-  similar. We are testing how you debug, not how you prompt.
 - **Documentation, Stack Overflow and asking seniors are all fine.**
   Anything where you still have to work out what applies to your code.
 - **Commit as you go.** Small commits with real messages. One giant
